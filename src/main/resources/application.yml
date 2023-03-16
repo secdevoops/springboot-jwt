@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/mydatabase #${DB_URL_APP} # URL de la base de datos a la que se va a conectar
-    username: myuser #${DB_USERNAME_APP} # Usuario de la base de datos
-    password: mypassword #${DB_PASSWORD_APP} # Contraseña de la base de datos
+    url: ${DB_URL_APP} # URL de la base de datos a la que se va a conectar
+    username: ${DB_USERNAME_APP} # Usuario de la base de datos
+    password: ${DB_PASSWORD_APP} # Contraseña de la base de datos
 
 
 
